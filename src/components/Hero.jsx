@@ -3,7 +3,7 @@ import assets from '../assets/assets'
 
 const Hero = () => {
   return (
-    <div id='hero' className='flex flex-col items-center gap-6 py-10 px-4 sm:px-12 lg:px-24 xl:px-40 text-center w-full overflow-hidden text-gray-700 dark:text-white'>
+    <div id='home' className='flex flex-col items-center gap-6 py-10 px-4 sm:px-12 lg:px-24 xl:px-40 text-center w-full overflow-hidden text-gray-700 dark:text-white'>
         <div className='inline-flex items-center gap-2 border border-gray-300 p-1.5 pr-4 rounded-full'>
             <img src={assets.group_profile} alt="" className='h-8 sm:h-10 md:h-12 '/>
             <p className='text-xs font-medium'>Trusted by 10k people</p>
