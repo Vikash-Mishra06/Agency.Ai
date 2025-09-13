@@ -58,11 +58,11 @@ const App = () => {
       <Footer theme={theme} setTheme={setTheme}/>
 
     {/* Custom Cursor ring */}
-      <div ref={outlineRef} className='fixed top-0 left-0 h-10 w-10 rounded-full border border-primary pointer-events-none z-[9999]' 
+      <div ref={outlineRef} className='hidden lg:block fixed top-0 left-0 h-10 w-10 rounded-full border border-primary pointer-events-none z-[9999]' 
       style={{transition: 'transform 0.1s ease-out'}}
       ></div>
     {/* Custom Cursor dot */}
-      <div ref={dotRef} className='fixed top-0 left-0 h-3 w-3 rounded-full bg-primary pointer-events-none z-[9999]'></div>
+      <div ref={dotRef} className='hidden lg:block fixed top-0 left-0 h-3 w-3 rounded-full bg-primary pointer-events-none z-[9999]'></div>
     </div>
   )
 }

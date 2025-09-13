@@ -12,7 +12,7 @@ const Teams = () => {
             className='flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-20 py-10 text-gray-800 dark:text-white '>
             <Title title='Meet the Team' desc='A passionate team of digital experts dedicated to your brands success.' />
 
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-5'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-10'>
                 {teamData.map((team, idx) => (
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
